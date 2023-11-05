@@ -1,38 +1,32 @@
-Algoritmo E07_Calificaciones
-	Escribir "Ingrese la calificación (un número):"
-    Leer calificacion
+Algoritmo E09_OrdenMayorMenor
 	
-    Si calificacion >= 90 Y calificacion <= 100 Entonces
-        Escribir "La calificación A (Excelente)"
+    Escribir "Ingrese el primer número:"
+    Leer num1
+    Escribir "Ingrese el segundo número:"
+    Leer num2
+    Escribir "Ingrese el tercer número:"
+    Leer num3
+	
+    Si num1 > num2 Entonces
+        temp <- num1
+        num1 <- num2
+        num2 <- temp
     FinSi
 	
-    Si calificacion >= 80 Y calificacion <= 89 Entonces
-        Escribir "La calificación B (Muy buena)"
+    Si num2 > num3 Entonces
+        temp <- num2
+        num2 <- num3
+        num3 <- temp
     FinSi
 	
-    Si calificacion >= 70 Y calificacion <= 79 Entonces
-        Escribir "La calificación C (Buena)"
+    Si num1 > num2 Entonces
+        temp <- num1
+        num1 <- num2
+        num2 <- temp
     FinSi
 	
-    Si calificacion >= 60 Y calificacion <= 69 Entonces
-        Escribir "La calificación D (Satisfactoria)"
-    FinSi
-	
-	Si calificacion >= 50 Y calificacion <= 59 Entonces
-        Escribir "La calificación E (Necesita mejoras)"
-    FinSi
-	
-	Si calificacion >= 1 Y calificacion <= 49 Entonces
-        Escribir "La calificación F (Vuelva a intentarlo...)"
-    FinSi
-	
-    Si calificacion > 100 O calificacion < 0 Entonces
-        Escribir "La calificación esta fuera del rango indicado: A, B, C, D."
-    FinSi
-	
-	Si calificacion = 0 Entonces
-		Escribir "Usted perdio el año, D:"
-	FinSi
+    // Mostrar los números ordenados
+    Escribir "Números ordenados en orden ascendente: ", num1, ", ", num2, ", ", num3
 	
 FinAlgoritmo
 
