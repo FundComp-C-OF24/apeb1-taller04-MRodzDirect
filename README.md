@@ -1,5 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/3xcErKEI)
 # Taller04
+**Nota:** 
+* Miniespecificaciones y pruebas de escritorio dentro de cada Word (archivo .docx)
+* Algoritmos y Flujogramas dentro de cada PseInt (archivo .pse)
 
 ## Representación gráfica y diseño de la solución de problemas con pseudocódigo aplicando estructuras lógicas condicionales.
 
